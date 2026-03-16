@@ -1,0 +1,19 @@
+{
+  "name": "@tower-ui/preview",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "bin": {
+    "tower-ui-preview": "./src/cli.ts"
+  },
+  "dependencies": {
+    "@tower-ui/core": "workspace:*",
+    "@tower-ui/web-adapter": "workspace:*",
+    "react": "^18.3.1",
+    "esbuild": "^0.25.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.0"
+  }
+}

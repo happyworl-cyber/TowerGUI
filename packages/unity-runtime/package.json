@@ -1,0 +1,16 @@
+{
+  "name": "com.towerui.runtime",
+  "version": "0.1.0",
+  "displayName": "TowerUI Runtime",
+  "description": "C# runtime bridges for TowerUI — React TSX game UI framework powered by Puerts + Unity UGUI.",
+  "unity": "2021.3",
+  "keywords": ["ui", "react", "puerts", "ugui", "game"],
+  "author": {
+    "name": "TowerUI"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "samples": [],
+  "_comment": "Puerts (com.tencent.puerts.core + com.tencent.puerts.v8/quickjs) is REQUIRED but not listed in dependencies because it is not available on the Unity Package Registry. Install Puerts manually from: https://github.com/nicenlove/puerts/releases"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@tower-ui/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-reconciler": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-reconciler": "^0.28.8"
+  }
+}

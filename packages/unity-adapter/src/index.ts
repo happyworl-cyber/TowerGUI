@@ -1,0 +1,1 @@
+export { UnityAdapter } from './UnityAdapter';

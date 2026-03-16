@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./output",
+    "rootDir": "./src",
+    "strict": true,
+    "paths": {
+      "csharp": ["./typings/csharp/index.d.ts"],
+      "puerts": ["./typings/puerts/index.d.ts"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["src/**/*", "typings/**/*"]
+}

@@ -1,0 +1,50 @@
+<linker>
+  <!-- Preserve Puerts runtime types for IL2CPP -->
+  <assembly fullname="Puerts.Core" preserve="all"/>
+  
+  <!-- Preserve TowerUI types accessed from JS via reflection -->
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="TowerUI.UIBridge" preserve="all"/>
+    <type fullname="TowerUI.UIEventReceiver" preserve="all"/>
+    <type fullname="TowerUI.AssetManager" preserve="all"/>
+    <type fullname="TowerUI.SoundBridge" preserve="all"/>
+    <type fullname="TowerUI.DataBridge" preserve="all"/>
+    <type fullname="TowerUI.InputBridge" preserve="all"/>
+    <type fullname="TowerUI.FilterBridge" preserve="all"/>
+    <type fullname="TowerUI.HotReloadClient" preserve="all"/>
+    <type fullname="TowerUIBoot" preserve="all"/>
+    <type fullname="BenchmarkSetup" preserve="all"/>
+  </assembly>
+  
+  <!-- Preserve UGUI types accessed dynamically -->
+  <assembly fullname="UnityEngine.UI">
+    <type fullname="UnityEngine.UI.Image" preserve="all"/>
+    <type fullname="UnityEngine.UI.Text" preserve="all"/>
+    <type fullname="UnityEngine.UI.Button" preserve="all"/>
+    <type fullname="UnityEngine.UI.InputField" preserve="all"/>
+    <type fullname="UnityEngine.UI.Toggle" preserve="all"/>
+    <type fullname="UnityEngine.UI.Slider" preserve="all"/>
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all"/>
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all"/>
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all"/>
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all"/>
+    <type fullname="UnityEngine.UI.Graphic" preserve="all"/>
+    <type fullname="UnityEngine.UI.Shadow" preserve="all"/>
+    <type fullname="UnityEngine.UI.Outline" preserve="all"/>
+    <type fullname="UnityEngine.UI.CanvasRenderer" preserve="all"/>
+  </assembly>
+  
+  <!-- Preserve TextMeshPro if available -->
+  <assembly fullname="Unity.TextMeshPro">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all"/>
+    <type fullname="TMPro.TMP_InputField" preserve="all"/>
+    <type fullname="TMPro.TMP_Settings" preserve="all"/>
+  </assembly>
+  
+  <!-- Preserve Canvas-related types -->
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Canvas" preserve="all"/>
+    <type fullname="UnityEngine.CanvasGroup" preserve="all"/>
+    <type fullname="UnityEngine.RectTransform" preserve="all"/>
+  </assembly>
+</linker>

@@ -1,0 +1,5 @@
+packages:
+  - "packages/*"
+  - "!packages/unity-runtime"
+  - "apps/*"
+  - "apps/unity-demo/TsProject"

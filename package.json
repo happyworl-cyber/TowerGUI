@@ -1,0 +1,17 @@
+{
+  "name": "tower-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "tower-ui": "tsx packages/cli/src/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.0"
+  }
+}

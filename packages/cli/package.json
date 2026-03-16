@@ -1,0 +1,14 @@
+{
+  "name": "@tower-ui/cli",
+  "version": "0.1.0",
+  "bin": {
+    "tower-ui": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@tower-ui/schema": "workspace:*",
+    "@tower-ui/preview": "workspace:*"
+  }
+}

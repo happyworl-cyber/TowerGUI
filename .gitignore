@@ -1,0 +1,66 @@
+# ==============================
+# Node.js
+# ==============================
+node_modules/
+pnpm-debug.log*
+*.tsbuildinfo
+
+# ==============================
+# Build outputs (可由源码重新生成)
+# ==============================
+packages/*/dist/
+apps/*/TsProject/output/
+apps/unity-demo/Assets/Resources/main.mjs
+
+# ==============================
+# Unity — 自动生成的缓存和临时文件
+# ==============================
+apps/*/Library/
+apps/*/Temp/
+apps/*/Logs/
+apps/*/UserSettings/
+apps/*/obj/
+apps/*/Build/
+apps/*/Builds/
+apps/*/MemoryCaptures/
+apps/*/Recording/
+
+# Unity crash reports
+sysinfo.txt
+crashlytics-build.properties
+
+# ==============================
+# Unity — 第三方插件二进制（体积大，用户自行安装）
+# ==============================
+apps/unity-demo/PuertsDL/
+
+# ==============================
+# 第三方参考代码（非本项目产物）
+# ==============================
+docs/github/
+
+# ==============================
+# Preview cache
+# ==============================
+.tower-preview/
+
+# ==============================
+# IDE / OS
+# ==============================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.csproj
+*.sln
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 敏感文件
+# ==============================
+.env
+.env.*
